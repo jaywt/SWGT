@@ -26,11 +26,11 @@ This package was last tested on July 26, 2020. Testing environment is listed bel
 
 2. Put your data under the directory specified in the configuration file (by input_path). The data should be a csv file with the following format:
 ```
-# input csv files the columns should be: 
+# input csv files the columns should be:
 # longitude, latitude, variable1, variable1 censor code, variable 2, variable 2 censor code
-# all values need to be numerical. 
+# all values need to be numerical.
 # Censor code takes value from 0 or 1. 0 being uncensored value and 1 being left censored value (<).
-# example: 
+# example:
 #         -76.622689,41.94494,20.2,0,1795.712751,0
 #         -76.622689,41.94494,20.2,0,1795.712751,0
 #         -76.622689,41.94494,20.2,0,1795.712751,0
@@ -41,7 +41,7 @@ This package was last tested on July 26, 2020. Testing environment is listed bel
 ```bash
 python main.py [your_config_file]
 ```
-Alternatively, you can open the provided Jupyter Notebook __Sliding_Window_Geospatial_Analysis.ipynb__ to run the first cell. This Jupyter Notebook also provides more advanced visualization options to produce publication-quality heatmaps.
+Alternatively, you can open the provided Jupyter Notebook __Sliding_Window_Geospatial_Tool.ipynb__ to run the first cell. This Jupyter Notebook also provides more advanced visualization options to produce publication-quality heatmaps.
 
 4. Outputs are in the output folder. In the folder there are three files:
 - [OUTPUT_PREFIX]_heatmap.pdf : The heatmap drawing.
@@ -56,7 +56,7 @@ python drawing.py [your_config_file]
 ```
 
 ## Example configuration file:
-Here is a sample configuration file (sample.cfg). 
+Here is a sample configuration file (sample.cfg).
 ```
 [IO Parameter]
 input_path = data/example_dataset_methane.csv
