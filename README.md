@@ -1,6 +1,8 @@
 # SWGT — Sliding Window Geospatial Tool
 This is the revised __Python 3__ version of Sliding Window Geospatial Tool. The earlier version of SWGT is linked here: https://github.com/shawu810/RegionalCorrelation
 
+[![DOI](https://zenodo.org/badge/282674814.svg)](https://zenodo.org/badge/latestdoi/282674814)
+
 ## References
 1. Li, Z., You, C., Gonzales, M., Wendt, A.K., Wu, F. and Brantley, S.L., 2016. Searching for anomalous methane in shallow groundwater near shale gas wells. _Journal of Contaminant Hydrology_, 195, pp.23-30. [Link to paper](https://doi.org/10.1016/j.jconhyd.2016.10.005)
 2. Li, Z., You, C., Gonzales, M.S., Wendt, A.K., Wu, F. and Brantley, S.L., 2017. Corrigendum to “searching for anomalous methane in shallow groundwater near shale gas Wells”(J. Contam. Hydrol.(2016) 195 (23–30)(S0169772216300985)(10.1016/j. Jconhyd. 2016.10. 005)). _Journal of Contaminant Hydrology_, 207, pp.50-51. [Link to paper](https://doi.org/10.1016/j.jconhyd.2017.09.009)
